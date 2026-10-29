@@ -1,28 +1,31 @@
 # Arquitetura
 
-Diagramas gerados a partir do Sinapse (o segundo cérebro do Pedro). Cada projeto tem três vistas,
-cada uma numa notação padrão:
+Três vistas do sistema, cada uma numa notação padrão.
 
-1. **Quem usa e para quê**: UML, diagrama de casos de uso.
-2. **O processo principal**: BPMN 2.0, com raias por quem executa.
-3. **A arquitetura**: modelo C4, nível 2 (containers).
+| Vista | Notação | Responde |
+|---|---|---|
+| 1. Casos de uso | UML | Quem usa e para quê |
+| 2. Processo | BPMN 2.0 | Como o trabalho anda, com uma raia para cada quem executa |
+| 3. Arquitetura | C4, nível 2 | De que partes o sistema é feito e com quem conversa |
 
 ## Balaio · registro do serviço anti-phishing
 
 Repositório de registro (Balaio-unphishing) de um serviço avulso de segurança feito em março/2025 no site da Associação Cultural Balaio Nordeste. Só tem um README curto e os desenhos; o passo a passo está no relatório de recuperação do mesmo cliente.
 
-### Quem usa e para quê (UML)
+### 1. Quem usa e para quê
 
-![Casos de uso · Balaio · registro do serviço anti-phishing](./balaio-unphising-1-casos-de-uso.svg)
+![Casos de uso de Balaio](./balaio-1-casos-de-uso.svg)
 
-### Do pedido de ajuda ao serviço registrado (BPMN 2.0)
+### 2. Do pedido de ajuda ao serviço registrado
 
-![Processo · Balaio · registro do serviço anti-phishing](./balaio-unphising-2-processo.svg)
+![Processo de Balaio](./balaio-2-processo.svg)
 
-### Arquitetura (C4, containers)
+### 3. Arquitetura
 
-![Arquitetura · Balaio · registro do serviço anti-phishing](./balaio-unphising-3-arquitetura.svg)
+![Arquitetura de Balaio](./balaio-3-arquitetura.svg)
 
-Editável: [`balaio-unphising.excalidraw`](./balaio-unphising.excalidraw), abre em [excalidraw.com](https://excalidraw.com) ou no VS Code com a extensão Excalidraw.
+Para editar: [balaio.excalidraw](./balaio.excalidraw), que abre em [excalidraw.com](https://excalidraw.com) ou na extensão Excalidraw do VS Code.
 
-A fonte destes arquivos é o vault do Sinapse (`09-DESENHOS/`); alterações feitas aqui são sobrescritas na próxima publicação.
+## De onde vêm
+
+Os diagramas são gerados a partir do Sinapse, o vault onde o Pedro organiza notas e projetos. Mudança feita direto aqui some na próxima publicação: o lugar de mudar é a especificação no Sinapse.
