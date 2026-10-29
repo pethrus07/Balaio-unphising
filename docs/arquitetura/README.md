@@ -9,9 +9,19 @@ cada uma numa notação padrão:
 
 ## Balaio · registro do serviço anti-phishing
 
-Repositório de registro de um serviço avulso de segurança feito em março/2025 para o site da Associação Cultural Balaio Nordeste. Só tem um README de uma linha; o passo a passo está no relatório de recuperação do mesmo cliente.
+Repositório de registro (Balaio-unphishing) de um serviço avulso de segurança feito em março/2025 no site da Associação Cultural Balaio Nordeste. Só tem um README curto e os desenhos; o passo a passo está no relatório de recuperação do mesmo cliente.
 
-![Balaio · registro do serviço anti-phishing](./balaio-unphising.svg)
+### Quem usa e para quê (UML)
+
+![Casos de uso · Balaio · registro do serviço anti-phishing](./balaio-unphising-1-casos-de-uso.svg)
+
+### Do pedido de ajuda ao serviço registrado (BPMN 2.0)
+
+![Processo · Balaio · registro do serviço anti-phishing](./balaio-unphising-2-processo.svg)
+
+### Arquitetura (C4, containers)
+
+![Arquitetura · Balaio · registro do serviço anti-phishing](./balaio-unphising-3-arquitetura.svg)
 
 Editável: [`balaio-unphising.excalidraw`](./balaio-unphising.excalidraw), abre em [excalidraw.com](https://excalidraw.com) ou no VS Code com a extensão Excalidraw.
 
